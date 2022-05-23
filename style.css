@@ -26,7 +26,8 @@ body {
   width: 500px;
   margin: 0 auto 0;
 }
-.task-label, .task-text-input {
+.task-label, 
+.task-text-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -38,13 +39,18 @@ ul {
   margin: 0;
   padding: 0px;
 }
-.incomplete-tasks-item, .completed-tasks-item, .h3 {
+.incomplete-tasks-item, 
+.completed-tasks-item, 
+.h3 {
   list-style: none;
 }
-input,button{
+input, 
+button{
   outline: none;
 }
-.add-task-btn, .edit-btn, .delete-btn {
+.add-task-btn, 
+.edit-btn, 
+.delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -53,7 +59,9 @@ input,button{
   font-family: lato, sans-serif;
   cursor: pointer;
 }
-.add-task-btn:hover, .edit-btn:hover, .delete-btn:hover {
+.add-task-btn:hover, 
+.edit-btn:hover, 
+.delete-btn:hover {
   color: #3a3a3a;
 }
 /* Heading */
@@ -93,7 +101,8 @@ input,button{
 }
 
 /* Task list */
-.incomplete-tasks-item, .completed-tasks-item {
+.incomplete-tasks-item, 
+.completed-tasks-item {
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -102,19 +111,23 @@ input,button{
   justify-content: space-between;
   align-items: center;
 }
-.incomplete-tasks-item > *, .completed-tasks-item > * {
+.incomplete-tasks-item > *, 
+.completed-tasks-item > * {
   vertical-align: middle;
 }
-.incomplete-tasks-item > .task-checkbox-input, .completed-tasks-item > .task-checkbox-input {
+.incomplete-tasks-item > .task-checkbox-input, 
+.completed-tasks-item > .task-checkbox-input {
   margin: 0 10px;
 }
-.incomplete-tasks-item > .task-label, .completed-tasks-item > .task-label {
+.incomplete-tasks-item > .task-label, 
+.completed-tasks-item > .task-label {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
-.incomplete-tasks-item > .task-text-input, .completed-tasks-item > .task-text-input {
+.incomplete-tasks-item > .task-text-input, 
+.completed-tasks-item > .task-text-input {
   width: 226px;
 }
 .delete-btn-img {
@@ -133,16 +146,19 @@ input,button{
 }
 
 /* Edit Task */
-.incomplete-tasks-item > .task-text-input, .completed-tasks-item > .task-text-input {
+.incomplete-tasks-item > .task-text-input, 
+.completed-tasks-item > .task-text-input {
   display: none;
 }
 
-.incomplete-tasks-item.edit-mode > .task-text-input, .completed-tasks-item.edit-mode > .task-text-input
+.incomplete-tasks-item.edit-mode > .task-text-input, 
+.completed-tasks-item.edit-mode > .task-text-input
  {
   display: inline-block;
   width: 224px;
 }
 
-.incomplete-tasks-item.edit-mode > .task-label, .completed-tasks-item.edit-mode > .task-label {
+.incomplete-tasks-item.edit-mode > .task-label, 
+.completed-tasks-item.edit-mode > .task-label {
   display: none;
 }
